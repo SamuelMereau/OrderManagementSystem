@@ -180,7 +180,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }
@@ -209,7 +209,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }
@@ -260,7 +260,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }
@@ -287,7 +287,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }
@@ -331,7 +331,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }
@@ -374,7 +374,7 @@ namespace DataAccessLayer
                 }
                 catch (Exception ex)
                 {
-                    throw new Exception(ex.Message);
+                    throw;
                 }
             }
         }

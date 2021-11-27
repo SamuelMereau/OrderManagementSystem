@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DomainClasses.Order">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAQAAEAAAAAAABEAAAAAAAAQAQAAIAAAAQAAAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="OrderState" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="OrderItems" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="DomainClasses.OrderItem">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAIAAAAQCAAAABAAAAAAQAAgAAQAQAAAAAgAAAAAA=</HashCode>
+      <FileName>OrderItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainClasses.OrderState">
+    <Position X="5.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAIAAAAAAAAAAQAAAAAAAAAABQAAAIA=</HashCode>
+      <FileName>OrderState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainClasses.StockItem">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACIAAAAQAAAIAAAABAAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>StockItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DomainClasses.InvalidOrderStateException">
+    <Position X="2" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\InvalidOrderStateException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DomainClasses.OrderStates">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAACIAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>OrderStates.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
